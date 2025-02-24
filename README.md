@@ -27,7 +27,7 @@ In addition to representing pixels as nodes, we introduce two terminal nodes: a 
 - Pixels are nodes in a graph.
 - Edges represent similarity between adjacent pixels using an exponential similarity measure:
 
-\[\text{Similarity}(i,j) = e^{-\frac{(I_i - I_j)^2}{\sigma^2}}\]
+$$\[\text{Similarity}(i,j) = e^{-\frac{(I_i - I_j)^2}{\sigma^2}}\]$$
 
 - Introduce source (background) and sink (foreground) nodes for the optimization.
 
